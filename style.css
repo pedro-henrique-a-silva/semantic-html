@@ -1,1 +1,19 @@
  
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+ }
+
+ h1 {
+    border: 1px solid blue;
+    /* text-align: center; */
+    margin: 10px;
+ }
+
+ 
