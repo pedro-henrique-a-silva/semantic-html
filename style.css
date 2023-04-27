@@ -1,19 +1,45 @@
  
- * {
+* {
     margin: 0;
     padding: 0;
  }
  
- header {
-    border: 1px solid red;
+header {
+    /* border: 1px solid red; */
     padding: 10px;
     text-align: center;
  }
 
- h1 {
-    border: 1px solid blue;
+h1 {
+    /* border: 1px solid blue; */
     /* text-align: center; */
     margin: 10px;
  }
 
+/* #links-header {
+    border: 1px solid green;
+    
+ } */
+
+#links-header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 15px;
+   
+    
+ }
+
+#links-header a{
+    color: white;
+    text-decoration: none;
+    background: rgb(71, 168, 32);
+    padding: 5px 10px;
+    border-radius: 30px;
+    
+ }
+
+#links-header a:hover {
+    text-decoration: underline;
+    
+} 
  
