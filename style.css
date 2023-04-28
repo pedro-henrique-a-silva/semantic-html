@@ -40,12 +40,12 @@
 main {
     width: 80%;
     margin: 70px auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: relative;
 }
 
 .main-content {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     /* border-left: 10px groove brown; */
     width: 65%;
@@ -98,7 +98,7 @@ main {
 }
 
 .sidebar {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     height: 500px;
     width: 30%;
     position: absolute;
@@ -107,7 +107,7 @@ main {
 }
 
 .sidebar section {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 10px;
 }
 
@@ -121,5 +121,9 @@ main {
 
 .sidebar a:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
 }
 
